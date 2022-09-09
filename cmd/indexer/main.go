@@ -146,7 +146,7 @@ package index
 
 import (
 	"github.com/googlecloudplatform/pi-delivery/pkg/resultset"
-	"github.com/googlecloudplatform/pi-delivery/pkg/ycd"	
+	"github.com/googlecloudplatform/pi-delivery/pkg/ycd"
 )`)
 	fmt.Fprintln(w)
 	fmt.Fprintf(w, "const BucketName = \"%s\"\n", bucketName)

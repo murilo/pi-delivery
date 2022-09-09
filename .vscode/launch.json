@@ -17,12 +17,15 @@
       "request": "launch",
       "mode": "debug",
       "program": "${workspaceFolder}/cmd/extract/main.go",
-      "args": ["-s=1999999999990", "-o=/home/yuryu_google_com/pi.txt"]
+      "args": [
+        "-s=1999999999990",
+        "-o=/home/yuryu_google_com/pi.txt"
+      ]
     },
     {
       "name": "Launch Chrome",
       "request": "launch",
-      "type": "pwa-chrome",
+      "type": "chrome",
       "url": "http://localhost:8080",
       "webRoot": "${workspaceFolder}"
     }
